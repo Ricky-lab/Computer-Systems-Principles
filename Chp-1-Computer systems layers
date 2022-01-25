@@ -1,0 +1,40 @@
+This is the blog helping myself to review the knowledge that I have went over. Hope you all enjoy my summary.
+
+##Chapter 1: Computer Systems Structure
+
+Before we dive into the deeper learning of computer system, the best way getting a comfortable start is to see the bigger picture of computer system structure. I think it is important for the beginner who just start learning Computer System or Operating System.
+
+Just like a hamburger, which has different layers like piece of bread, vagetables, beef, cheese and so on, computer systems also are dive into different layers. 
+
+Layers in hamburger:
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzvcrw92ulp4h80gjye4.png)
+
+Layers in Computer Systems: 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e8v3oyw5tqaxx9or2txz.png)
+
+As we can see, computer systems could be divided into three big layers, which are: (Up to down)
+1.Software Layers
+ -```All kinds of applications that we use daily```
+2.Operating System Layers
+ -```Operating System -- A special application between software and hardware, which is used to transfer user's or applications' "codes" or "instructions" and then letting the hardware understand how to manipulate the menory.```
+3.Hardware Layers
+ -```Including CPU, disks, registers, RAM and so on.```
+
+Specially, and generally we can divede them into five main components (based on every single component could be dived deeper to study at the following chapters)
+
+1. Input/Output ports. (I/O ports)
+ Enable the computer to take information or interations from its environment and dispaly them back to the user in some meaningful way.
+ 
+2. Central processing unit. (CPU)
+ Runs or executes instructions and computers data and memory addresses.
+
+3. Random access memory (RAM)
+ Stores the data and instructions of running programs. The data and instructions in RAM are typically lost when teh computer system loses power.
+
+4. Secondary storage device (SSD)
+ Hard disks or solid state drives (SSD) that can store programs and data even when power is not actively being provided to the computer.
+
+5. Operating System (OS)
+ A software layer that lies between the hardware of the computer and the software that a user runs on the computer.
+
+Next time, I will go over the <Bit and Byte>, which is the basic knowledge in system, making you think like a computer.
