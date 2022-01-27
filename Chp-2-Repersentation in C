@@ -1,0 +1,65 @@
+We will go over data repersentation of computer systems this chapter. That is, when we need to think in a computer way, you should know how computer think at first (in binary).
+
+##Chapter. 2 Repersentation in C
+----------
+###1. Base
+What is the base of a number?
+Generally, the number that we use in daily life like 50 dollars, 100 pounds, 1,000,000 people are all base 10, which means that these number are all decimal.
+
+And usually, there are different bases we use in studying system, like binary number (base 2), octal number (base 8), and hexadecimal number (base 16). 
+
+We can see them being used in computer world:
+When the numebr is followed by a character "b", that means it is a binary number:
+0101b (BIN) = 0 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 5 (DEX)
+
+Number like '0X1E', is HEX number:
+0X is the prefix of the hexadecimal number. We have: 
+0X1E (HEX) = 1 * 16^1 + 14 * 16^0 = 30 (DEX) 
+
+###2. Bit and Byte
+1 Byte = 8 Bits
+And the important repersentations of every data type in C:
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/de8ts8vuvqlfulbghou3.png)
+  
+Specially, one another data type in C is called POINTER, which is also significant:
+
+Pointer:
+- 4 bytes in 32-bit-system
+- 8 bytes in 64-bit-system   
+
+###The knowledge that we are reviewing, is usually based on <u>32-bit systems</u>
+
+###3. Conversion between different bases
+
+    - DEC to BIN:
+![Image description](https://www.electrical4u.com/wp-content/uploads/What-are-Decimal-and-Binary-Conversion.png?ezimgfmt=ng%3Awebp%2Fngcb37%2Frs%3Adevice%2Frscb37-1)
+ There is the same way to do with other bases number except for BIN.
+
+   - BIN to DEC: mentioned above
+   - X base number to Y base number: 
+     1. X base to DEC
+     2. And then DEC to Y base
+
+###4. Addition and multiplication of binary
+
+###5. One's Complement 
+When comes to 1100 1001 (which is equal to 201 in decimal):
+THe 1's complement of 1100 1001 is 0011 0110, which turning 1 to 0, and turning 0 to 1.
+
+### 6. Two's Complement
+Two's complement is used to do the substraction or repersenting negative number in binary (Of course, adding a negative is substracting a positive number).
+How to repersent -5 in binary, when we know 5 is 0101 in binary in a 8-bit machine?
+1. Get the 0101's 1's complement in 8-bit machine, having 1111 1010.
+2. Add one, having 1111 1011. Then, 1111 1011 is the number repersenting -5 in 8-bit machine.
+
+###7. Intro of Overflow and Underflow
+They happen when sum of 2 positive (or negative) number but get the negative (positive) number in machine, due to the fact that when machine has no more bit to extend to repersent this number.
+Overflow: Sum of 2 positive but get the negative
+Underflow: Sum of 2 negative but get the positive
+
+###8. Extension and Truncation between high-bit and low-bit
+This part would be the most important part of bit and byte chapter. I would like to go over this part in next post, because I think it would cost me few hours to design how to explain it in a comfortable way. 
+
+
+-----------------
+Hope you like my post! You red heart or subsrcibtion are the energy of me! Thank you!
